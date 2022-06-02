@@ -32,13 +32,13 @@
     ```
 4. Necessary substitutions for Stripe:
   - a. frontend:
-    ```
+    
       Inside the views folder in the Checkout.vue file you must add your Stripe Public Key that you will find in your stripe profile after registering
-    ```
+    
   - b. backend:
-    ```
+    
       Inside the djackets_django project folder in the settings.py file you must add your Stripe Secret Key that you can find in your stripe profile after registering
-    ```
+    
 5. To go to:
   - a. frontend:
     ```
