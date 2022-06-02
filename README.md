@@ -15,7 +15,7 @@
 1. Clone repo
 
     ```bash
-    $ git clone git@github.com:danieljfar/siclo-challange.git
+    $ git clone git@github.com:danieljfar/E-commerce-Website-With-Stripe.git
     ```
 
 2. Run Django
