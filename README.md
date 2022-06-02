@@ -44,11 +44,11 @@
     ```
       http://localhost:8080/
     ```
-  - b. To go to backend:
+  - b. backend:
     ```
       http://localhost:8000/
     ```
-  - c. To go to backend admin:
+  - c. backend admin:
     ```
       http://localhost:8000/admin
     ```
