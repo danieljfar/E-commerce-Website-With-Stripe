@@ -17,20 +17,33 @@
     ```bash
     $ git clone git@github.com:danieljfar/E-commerce-Website-With-Stripe.git
     ```
-
-2. Run Django
+    
+2. Install Project Requirements -
     The following command must be run inside the virtual environment 
+    
+    ```bash
+    $ pip install -r requirements.txt
+    ```
+    
+3. Run Django
+
     ```bash
     $ python manage.py runserver
     ```
-3. Run Vue
+    
+4. Install Frontend Dependencies
+
     ```bash
     $ npm install
     ```
+    
+4. Run Vue
+
     ```bash
     $ npm run serve
     ```
-4. Necessary substitutions for Stripe:
+    
+5. Necessary substitutions for Stripe:
   - a. frontend:
     
       Inside the views folder in the Checkout.vue file you must add your Stripe Public Key that you will find in your stripe profile after registering
@@ -39,7 +52,7 @@
     
       Inside the djackets_django project folder in the settings.py file you must add your Stripe Secret Key that you can find in your stripe profile after registering
     
-5. To go to:
+## To go to:
   - a. frontend:
     ```
       http://localhost:8080/
