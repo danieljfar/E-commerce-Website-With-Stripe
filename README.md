@@ -18,7 +18,7 @@
     $ git clone git@github.com:danieljfar/E-commerce-Website-With-Stripe.git
     ```
     
-2. Install Project Requirements -
+2. Install Backend Requirements -
     The following command must be run inside the virtual environment 
     
     ```bash
